@@ -1,0 +1,29 @@
+{
+  "name": "sp-holidays",
+  "version": "1.0.0",
+  "description": "Biblioteca que lhe fornece todos os feriados nacionais, regionais e municipais de são Paulo até 2030",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "keywords": [
+    "SPHolidays",
+    "Holidays",
+    "BRHolidays",
+    "SPHolidays",
+    "SP",
+    "SaoPauloHolidays",
+    "SaoPauloFeriados",
+    "feiadosEmSP"
+  ],
+  "author": "Leozera & Kowalski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
