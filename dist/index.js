@@ -30,7 +30,6 @@ var isHoliday = function (_a) {
     }
     if (town) {
         var townHolidays = (0, municipal_1.getMunicipalHolidays)(year, town);
-        console.log(townHolidays);
         var isTownHolidays = townHolidays.find(function (holiday) {
             return holiday.town === town && (0, moment_1.default)(holiday.date).isSame(selectedDate);
         });
@@ -52,4 +51,3 @@ var isWorkday = function (_a) {
     return true;
 };
 exports.isWorkday = isWorkday;
-console.log((0, exports.isWorkday)({ dateString: '10-04-2023' }));
