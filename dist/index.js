@@ -48,8 +48,8 @@ var isWorkday = function (_a) {
         return false;
     var _isHoliday = (0, exports.isHoliday)({ dateString: dateString, stateUF: stateUF, town: town });
     if (_isHoliday)
-        return true;
-    return false;
+        return false;
+    return true;
 };
 exports.isWorkday = isWorkday;
-console.log((0, exports.isHoliday)({ dateString: '08-12-2023', town: 'Adamantina' }));
+console.log((0, exports.isWorkday)({ dateString: '10-04-2023' }));

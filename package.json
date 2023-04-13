@@ -1,11 +1,13 @@
 {
   "name": "sp-holidays",
-  "version": "2.0.0",
-  "description": "Biblioteca que lhe fornece todos os feriados nacionais, regionais e municipais de são Paulo até 2030",
+  "version": "2.0.5",
+  "readme": "README.md",
+  "description": "Biblioteca que lhe fornece todos os feriados nacionais, estaduais e municipais",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsx",
+    "build": "npx tsc",
+    "publish": "npm publish",
     "run": "nodemon --watch --esm \"src//\" --exec \"ts-node src/index.ts\" -e ts"
   },
   "keywords": [
@@ -13,7 +15,9 @@
     "Feriados Brasileiros",
     "Feriados Nacionais",
     "Feriados Municipais",
-    "Feriados Estaduais"
+    "Feriados Estaduais",
+    "Brasil Holidays",
+    "Brazil Holidays"
   ],
   "author": "Leozera & Kowalski",
   "license": "ISC",

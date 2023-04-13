@@ -69,9 +69,9 @@ export const isWorkday = ({
 
   const _isHoliday = isHoliday({ dateString, stateUF, town });
 
-  if (_isHoliday) return true;
+  if (_isHoliday) return false;
 
-  return false;
+  return true;
 };
 
-console.log(isHoliday({dateString: '08-12-2023', town: 'Adamantina'}))
+console.log(isWorkday({dateString: '10-04-2023'}))
