@@ -1,6 +1,6 @@
 {
   "name": "sp-holidays",
-  "version": "2.1.5",
+  "version": "2.1.8",
   "readme": "README.md",
   "description": "Biblioteca que lhe fornece todos os feriados nacionais, estaduais e municipais",
   "main": "dist/index.js",

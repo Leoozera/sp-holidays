@@ -40,7 +40,6 @@ export const isHoliday = ({
 
   if (town) {
     const townHolidays = getMunicipalHolidays(year, town);
-    console.log(townHolidays);
     const isTownHolidays = townHolidays.find(
       (holiday) =>
         holiday.town === town && moment(holiday.date).isSame(selectedDate)
@@ -73,5 +72,3 @@ export const isWorkday = ({
 
   return true;
 };
-
-console.log(isWorkday({dateString: '10-04-2023'}))
