@@ -9,8 +9,6 @@ $ npm install sp-holidays --save
 Biblioteca criada para fins de uso pessoal e aprendizado.
 Base dados utilizada proveniente do usuário: joaopbini
 
-OBS: Suporte a Typescript.
-
 
 ```javascript
 const { isHoliday, isWorkday } = require("sp-holidays");
